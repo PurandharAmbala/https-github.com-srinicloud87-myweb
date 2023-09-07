@@ -33,14 +33,14 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <name>myweb Release Nexus Repository</name> 
-		    <url>http://54.167.146.17:8081/repository/myweb-release//</url>
+		    <name>myweb Snapshot Nexus Repository</name> 
+		    <url>http://54.167.146.17:8081/repository/myweb-snapshot//</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <name>myweb Snapshot Nexus Repository</name>
-		    <url>http://54.167.146.17:8081/repository/myweb-snapshot///</url>
+		    <name>myweb Release Nexus Repository</name>
+		    <url>http://54.167.146.17:8081/repository/myweb-release//</url>
 		</repository>
   	</distributionManagement>
 	
