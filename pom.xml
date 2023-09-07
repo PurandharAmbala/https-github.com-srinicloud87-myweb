@@ -32,13 +32,15 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://35.78.238.154:8081/repository/sample-snapshots/</url>
+		    <id>nexus</id>
+		    <name>ICICI Bank Release Nexus Repository</name> 
+		    <url>http://54.167.146.17:8081/repository/ICICIBank-Release/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://35.78.238.154:8081/repository/sample-releases/</url>
+		    <id>nexus</id>
+		    <name>ICICI Bank Snapshot Nexus Repository</name>
+		    <url>http://54.167.146.17:8081/repository/ICICIBank-Snapshot//</url>
 		</repository>
   	</distributionManagement>
 	
